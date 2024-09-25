@@ -1,0 +1,3 @@
+flag{Web_And_Crypto_HAHA!}
+flag{B4SIC_BRUT3FORCING_NIC3_JOB}
+flag{GIT_IT}
