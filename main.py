@@ -18,8 +18,6 @@ if not os.path.isfile("rockyou.txt"):
     os.system(f"curl -s {rockyou_downloadlink} -o rockyou.txt")
 
 md5_dict = hd.md5load_dictionary("rockyou.txt")
-print(md5_dict[0].decode().strip())
-
 if not os.path.isfile("token.txt"):
     print("Please create the token.txt file before executing the bot")
     exit(-1)
