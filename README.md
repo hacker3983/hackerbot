@@ -11,5 +11,5 @@ python3 main.py
 ```
 You can interact with the bot by typing the command `hackerbot` or `hackerbot help` this will give you the usage of how to use the hackerbot
 # Screenshots
-!(hackerbot help)[Screenshot 2024-09-24 160234.png]
-!(hackerbot crypto)[Screenshot 2024-09-24 160708.png]
+![hackerbot help](Screenshots/Screenshot 2024-09-24 160234.png)
+![hackerbot crypto](Screenshots/Screenshot 2024-09-24 160708.png)
