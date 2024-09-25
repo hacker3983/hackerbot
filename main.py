@@ -20,12 +20,17 @@ if not os.path.isfile("rockyou.txt"):
 md5_dict = hd.md5load_dictionary("rockyou.txt")
 print(md5_dict[0].decode().strip())
 
+if not os.path.isfile("token.txt"):
+    print("Please create the token.txt file before executing the bot")
+    exit(-1)
 with open("token.txt") as f:
     token = f.read()
 
-with open("todolist-data.json", "r") as f:
-    users_data = f.read()
-todo_list = json.loads(users_data)
+todo_list = {}
+if os.path.isfile("todolist-data.json"):
+    with open("todolist-data.json", "r") as f:
+        users_data = f.read()
+        todo_list = json.loads(users_data)
 intents = discord.Intents.default()
 intents.message_content = True
 intents.members = True
