@@ -10,6 +10,8 @@ After getting all the requirements you can create a token.txt file which will co
 python3 main.py
 ```
 You can interact with the bot by typing the command `hackerbot` or `hackerbot help` this will give you the usage of how to use the hackerbot
-# Screenshots
+# Screenshots of basic examples
+* Hackerbot help:
 ![hackerbot help](Screenshots/Screenshot%202024-09-24%20160234.png)
+* Hackerbot crypto:
 ![hackerbot crypto](./Screenshots/Screenshot%202024-09-24%20160708.png)
